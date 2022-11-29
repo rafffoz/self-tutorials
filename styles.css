@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(85, 17, 40, 1);
+    color: #fff;
+}
+
+.rfm__hoverbox {
+    display: flex;
+    gap:3em;
+    padding: 3em;
+}
+
+.rfm__hoverbox li {
+    flex: 1;
+    background-color: #6446cd;
+    height: 150px;
+}
+
+
+
+.new-fadebloco__link{position:relative;box-shadow:0px 3px 6px #00000066;overflow:hidden;}
+
+.new-fadebloco__link .new-fadebloco__overlay{background:rgb(155 20 20 / 70%);border-radius:5px;position:absolute;width:100%;left:0;top:0;bottom:0;right:0;-webkit-transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;transition:all 0.4s ease-in-out 0s;}
+
+.new-fadebloco__titulo{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;transition:all 0.3s ease-in-out 0s;}
+
+.new-fadebloco__bottom{top:80%;}
+
+.new-fadebloco__link .new-fadeIn__overlay,
+.new-fadeIn__titulo{opacity:0;}
+
+.new-fadebloco__link:hover .new-fadeIn__overlay{opacity:1;}
+
+.new-fadebloco__link:hover .new-fadeIn__titulo{top:50%;left:50%;opacity:1;}
+
+.new-fadebloco__link .new-fadeOut__overlay{background:rgb(155 20 20 / 10%);}
+
+.new-fadeOut__titulo{opacity:1;}
+
+.new-fadebloco__link:hover .new-fadeOut__overlay{opacity:0;}
+
+.new-fadebloco__link:hover .new-fadeOut__titulo{top:130%;left:50%;opacity:0;}
